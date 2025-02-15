@@ -17,5 +17,9 @@
       };
     };
     shellcheck.enable = true;
+    yamllint = {
+      enable = true;
+      settings.preset = "relaxed";
+    };
   };
 }
