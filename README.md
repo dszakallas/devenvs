@@ -1,6 +1,6 @@
 # devenvs
 
-This repository provides somw shared [devenv](https://devenv.sh/) configurations.
+This repository provides some shared [devenv](https://devenv.sh/) configurations.
 
 ## Usage
 
