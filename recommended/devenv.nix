@@ -8,7 +8,7 @@
   # Always enable nix language support.
   languages.nix.enable = true;
 
-  pre-commit.hooks = {
+  git-hooks.hooks = {
     nixfmt-rfc-style.enable = true;
     markdownlint = {
       enable = true;
