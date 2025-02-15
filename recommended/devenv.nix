@@ -6,7 +6,7 @@
   packages = with pkgs; [ git ];
 
   # Always enable nix language support.
-  language.nix.enable = true;
+  languages.nix.enable = true;
 
   pre-commit.hooks = {
     nixfmt-rfc-style.enable = true;
