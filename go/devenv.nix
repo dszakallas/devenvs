@@ -2,10 +2,12 @@
 
 {
   packages = with pkgs; [
-    gopls
-    gofumpt
     gci
+    godef
+    gofumpt
     golangci-lint
+    gopkgs
+    gopls
   ];
   languages.go.enable = true;
 }
