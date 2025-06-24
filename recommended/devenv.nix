@@ -19,7 +19,12 @@
     shellcheck.enable = true;
     yamllint = {
       enable = true;
-      settings.preset = "relaxed";
+      settings.configuration = ''
+        extends: relaxed
+        rules:
+          line-length:
+            max: 120
+      '';
     };
   };
 }
