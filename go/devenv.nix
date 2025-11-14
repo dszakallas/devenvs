@@ -3,7 +3,6 @@
 {
   packages = with pkgs; [
     delve
-    gci
     godef
     gofumpt
     golangci-lint
