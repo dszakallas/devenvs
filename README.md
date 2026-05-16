@@ -1,5 +1,8 @@
 # devenvs
 
+> [!CAUTION]
+> Do not use. My devenv modules have been migrated to the [dotfiles-common](https://github.com/dszakallas/dotfiles-common) repo. 
+
 This repository provides some shared [devenv](https://devenv.sh/) configurations.
 
 ## Usage
